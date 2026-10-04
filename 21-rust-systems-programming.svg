@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760">
+      <defs>
+        <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+          <stop offset="0" stop-color="#071a3d"/><stop offset=".55" stop-color="#071126"/><stop offset="1" stop-color="#7c3aed"/>
+        </linearGradient>
+        <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      </defs>
+      <rect width="600" height="760" rx="28" fill="url(#g)"/>
+      <g opacity=".35" stroke="#00c6ff" fill="none">
+        <circle cx="460" cy="190" r="120"/><circle cx="460" cy="190" r="85"/><circle cx="460" cy="190" r="48"/>
+        <path d="M40 600 C150 520 220 680 330 580 S500 520 570 610"/>
+        <path d="M35 90 H565 M35 110 H430"/>
+      </g>
+      <rect x="34" y="34" width="210" height="34" rx="17" fill="#00c6ff" opacity=".18" stroke="#00c6ff"/>
+      <text x="50" y="57" fill="#dff8ff" font-family="Arial" font-size="16" font-weight="700">Programming</text>
+      <g filter="url(#glow)">
+        <circle cx="460" cy="190" r="32" fill="none" stroke="#00c6ff" stroke-width="7"/>
+        <path d="M430 190h60M460 160v60" stroke="#00c6ff" stroke-width="5"/>
+      </g>
+      <text x="42" y="350" fill="#fff" font-family="Arial" font-size="34" font-weight="800">Rust Systems Programming</text>
+      
+      <text x="42" y="470" fill="#b9d7ee" font-family="Arial" font-size="19">Ownership • Memory Safety</text>
+      <text x="42" y="700" fill="#00c6ff" font-family="Arial" font-size="20" font-weight="700">NEXT STEP • PREMIUM EBOOK</text>
+      <text x="42" y="730" fill="#fff" font-family="Arial" font-size="15">Learn • Build • Grow</text>
+    </svg>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Next Step — Premium eBooks</title><link rel="stylesheet" href="/style.css">
+</head><body>
+<header class="nav">
+  <div class="brand"><div class="logo">↗</div><div><b>Next Step</b><small>Learn · Build · Grow</small></div></div>
+  <nav><a class="active" href="#home">Home</a><a href="#books">All eBooks</a><a href="#bundles">Bundles</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  <div class="actions"><input id="search" placeholder="⌕  Search for eBooks..."><button class="mobileSearch" id="mobileSearch" aria-label="Search">⌕</button><button id="cartBtn">🛒 <span id="cartCount">0</span></button><span>♙ Login / Signup</span></div>
+</header>
+<main>
+<section id="home" class="hero">
+  <div class="heroText"><span class="pill">Your Future Starts Here</span><h1><em>Next</em> Step</h1><h2>Premium eBooks for Future Tech Leaders</h2>
+  <p>Learn in-depth. Build real skills. Achieve your dream career.<br>Get access to 65+ high-quality eBooks, curated for B.Tech CSE students and aspiring tech professionals.</p>
+  <div class="benefits"><div>▣ <b>65+ eBooks</b><small>All Key Topics</small></div><div>✉ <b>Instant Access</b><small>PDF via Email</small></div><div>♜ <b>Secure Payment</b><small>Demo mode now</small></div></div>
+  <button class="primary" onclick="document.querySelector('#books').scrollIntoView()">Explore eBooks →</button></div>
+  <div class="heroArt"><div class="aiCore">AI</div><span class="chip c1">🐍 Python</span><span class="chip c2">◉ Machine Learning</span><span class="chip c3">🛡 Cyber Security</span><span class="chip c4">▥ Data Science</span><span class="chip c5">☁ Cloud</span><span class="chip c6">&lt;/&gt; Web Development</span></div>
+  <div class="quote">“Small steps today create <strong>BIG dreams</strong> tomorrow.”<small>— Next Step</small></div>
+</section>
+<section id="books" class="store">
+<aside><h3>Categories</h3><div id="cats"></div><hr><h3>Price Range</h3><div class="range"><span>₹299</span><span>₹2,999</span></div><input id="price" type="range" min="299" max="2999" value="2999"></aside>
+<div class="content"><div class="sectionHead"><div><h2>★ Featured eBooks</h2><small>Most popular and highly rated eBooks</small></div><select id="category"><option>All</option></select></div><div id="grid" class="grid"></div></div>
+</section>
+<section id="bundles" class="bundles"><h2>🎁 Popular Bundles</h2><div class="bundleGrid"><div class="bundle"><b>Starter Bundle</b><p>5 eBooks • Best for Students</p><strong>₹1,499</strong><button>View Bundle</button></div><div class="bundle"><b>Placement Success Bundle</b><p>8 eBooks • Interview + Resume + Skills</p><strong>₹2,499</strong><button>View Bundle</button></div><div class="bundle"><b>Ultimate Tech Master Bundle</b><p>15 eBooks • All Core Topics + Projects</p><strong>₹3,999</strong><button>View Bundle</button></div></div></section>
+<section id="about" class="about"><h2>Why Next Step?</h2><p>Practical, structured learning resources for students who want to move from theory to real projects and career preparation.</p></section>
+</main>
+<footer id="contact"><div><b>Next Step</b><span>Instant PDF Delivery</span></div><div><b>Contact</b><span>Next Step Support</span><span>Add your business WhatsApp / email here</span></div><div><b>Support</b><span>24/7 support after launch</span></div><div><b>© 2026 Next Step</b></div></footer>
+<div id="modal" class="modal"><div class="modalBox"><button class="close" onclick="closeModal()">×</button><h2>Demo Checkout</h2><p>No Razorpay • No real payment • Testing only</p><input id="name" placeholder="Your name"><input id="email" placeholder="Gmail address"><input id="phone" placeholder="Phone number"><button class="primary" onclick="demoBuy()">Complete Demo Purchase</button><div id="msg"></div></div></div>
+<script src="/products.js"></script><script src="/app.js"></script>
+</body></html>
